@@ -15,3 +15,9 @@ const teams = [
     {name: "Juventus", punti: 0, falliSubiti: 0}
 ]
 // object array
+
+for (let teams in teams) {
+    teams.punti = Math.floor(Math.random() * 108)
+    teams.falliSubiti = Math.floor(Math.random() * 50)
+}
+// generate random points and fouls 
