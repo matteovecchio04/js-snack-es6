@@ -25,9 +25,11 @@ for (i = 0; i < bike.length; i++) {
         lightBike = bike[i]
     }
 }
+// lightBike updates to the lightest bike in the array
 
 console.log(`La bicicletta più leggera è la "${lightBike.nome}" con un peso di ${lightBike.peso}kg !`);
 
 const lightBikeEl = document.getElementById("lightBike")
 
 lightBikeEl.innerHTML = `La bicicletta più leggera è la "${lightBike.nome}" con un peso di ${lightBike.peso}kg !`
+// add result in DOM 
