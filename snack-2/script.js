@@ -6,5 +6,12 @@ Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
 
-
-
+const teams = [
+    {name: "Roma", punti: 0, falliSubiti: 0},
+    {name: "Napoli", punti: 0, falliSubiti: 0},
+    {name: "Milan", punti: 0, falliSubiti: 0},
+    {name: "Inter", punti: 0, falliSubiti: 0},
+    {name: "Hellas Verona", punti: 0, falliSubiti: 0},
+    {name: "Juventus", punti: 0, falliSubiti: 0}
+]
+// object array
