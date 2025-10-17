@@ -16,8 +16,20 @@ const teams = [
 ]
 // object array
 
-for (let club in teams) {
+for (let club of teams) {
     club.punti = Math.floor(Math.random() * 108)
     club.falliSubiti = Math.floor(Math.random() * 50)
 }
 // generate random points and fouls 
+
+const squadreFalli = teams.map(club => {
+    return {
+        name: club.nome,
+        falliSubiti: club.falliSubiti
+    }
+})
+// new array in which the elements cointain only the name of the teams and how many fouls they've earned
+
+console.log(teams);
+console.log(squadreFalli);
+
