@@ -24,7 +24,7 @@ for (let club of teams) {
 
 const squadreFalli = teams.map(club => {
     return {
-        name: club.nome,
+        name: club.name,
         falliSubiti: club.falliSubiti
     }
 })
