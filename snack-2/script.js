@@ -16,8 +16,8 @@ const teams = [
 ]
 // object array
 
-for (let teams in teams) {
-    teams.punti = Math.floor(Math.random() * 108)
-    teams.falliSubiti = Math.floor(Math.random() * 50)
+for (let club in teams) {
+    club.punti = Math.floor(Math.random() * 108)
+    club.falliSubiti = Math.floor(Math.random() * 50)
 }
 // generate random points and fouls 
